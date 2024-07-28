@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "id": "742356ea-762b-4899-b96a-bd567e3c4361",
+      "type": "start",
+      "x": 200,
+      "y": 170,
+      "properties": {},
+      "text": {
+        "x": 200,
+        "y": 205,
+        "value": "geodiskin"
+      }
+    },
+    {
+      "id": "dacda6b6-48d3-4dff-911d-287704eb23d8",
+      "type": "rect",
+      "x": 350,
+      "y": 170,
+      "properties": {},
+      "text": {
+        "x": 350,
+        "y": 170,
+        "value": "基础节点"
+      }
+    },
+    {
+      "id": "49106603-2b88-4b2c-b1e8-723c1f2210bd",
+      "type": "user",
+      "x": 530,
+      "y": 170,
+      "properties": {},
+      "text": {
+        "x": 530,
+        "y": 220,
+        "value": "自定义节点"
+      }
+    },
+    {
+      "id": "647fa2bc-98ee-40cf-99c5-4756c0bc130d",
+      "type": "push",
+      "x": 690,
+      "y": 170,
+      "properties": {},
+      "text": {
+        "x": 690,
+        "y": 220,
+        "value": "自定义节点 可添加下一个节点/节点组"
+      }
+    },
+    {
+      "id": "5ffdb4e3-ea8f-4112-8967-6ea9c8bf8f84",
+      "type": "user",
+      "x": 840,
+      "y": 320,
+      "properties": {}
+    },
+    {
+      "id": "ddff9eb3-81f3-48fb-9f4b-6d26040d2750",
+      "type": "download",
+      "x": 690,
+      "y": 330,
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "00f55245-513e-43a2-9cb0-adb61b01adc8",
+      "type": "polyline",
+      "sourceNodeId": "742356ea-762b-4899-b96a-bd567e3c4361",
+      "targetNodeId": "dacda6b6-48d3-4dff-911d-287704eb23d8",
+      "startPoint": {
+        "x": 220,
+        "y": 170
+      },
+      "endPoint": {
+        "x": 300,
+        "y": 170
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 220,
+          "y": 170
+        },
+        {
+          "x": 300,
+          "y": 170
+        }
+      ]
+    },
+    {
+      "id": "bbf9754f-603e-48e4-85fe-84ed44459a6a",
+      "type": "polyline",
+      "sourceNodeId": "dacda6b6-48d3-4dff-911d-287704eb23d8",
+      "targetNodeId": "49106603-2b88-4b2c-b1e8-723c1f2210bd",
+      "startPoint": {
+        "x": 400,
+        "y": 170
+      },
+      "endPoint": {
+        "x": 495,
+        "y": 170
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 400,
+          "y": 170
+        },
+        {
+          "x": 495,
+          "y": 170
+        }
+      ]
+    },
+    {
+      "id": "12bb443b-4070-4a08-ad4d-2755ee856f0d",
+      "type": "polyline",
+      "sourceNodeId": "49106603-2b88-4b2c-b1e8-723c1f2210bd",
+      "targetNodeId": "647fa2bc-98ee-40cf-99c5-4756c0bc130d",
+      "startPoint": {
+        "x": 565,
+        "y": 170
+      },
+      "endPoint": {
+        "x": 655,
+        "y": 170
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 565,
+          "y": 170
+        },
+        {
+          "x": 655,
+          "y": 170
+        }
+      ]
+    },
+    {
+      "id": "01280988-b40e-4b52-8f95-6c3384b55288",
+      "type": "polyline",
+      "sourceNodeId": "647fa2bc-98ee-40cf-99c5-4756c0bc130d",
+      "targetNodeId": "5ffdb4e3-ea8f-4112-8967-6ea9c8bf8f84",
+      "startPoint": {
+        "x": 725,
+        "y": 170
+      },
+      "endPoint": {
+        "x": 840,
+        "y": 285
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 725,
+          "y": 170
+        },
+        {
+          "x": 840,
+          "y": 170
+        },
+        {
+          "x": 840,
+          "y": 285
+        }
+      ]
+    },
+    {
+      "id": "38e2efac-58a8-4b1e-8605-32ee00677905",
+      "type": "polyline",
+      "sourceNodeId": "647fa2bc-98ee-40cf-99c5-4756c0bc130d",
+      "targetNodeId": "ddff9eb3-81f3-48fb-9f4b-6d26040d2750",
+      "startPoint": {
+        "x": 690,
+        "y": 205
+      },
+      "endPoint": {
+        "x": 690,
+        "y": 305
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 690,
+          "y": 205
+        },
+        {
+          "x": 690,
+          "y": 305
+        }
+      ]
+    }
+  ]
+}

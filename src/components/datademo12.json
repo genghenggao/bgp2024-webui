@@ -1,0 +1,48 @@
+{
+  "nodes": [
+  {
+  "id": "1270c49d-d58e-439b-955c-2603bf94f781",
+  "type": "rect",
+  "x": 810,
+  "y": 290,
+  "properties": {
+  }
+  },
+  {
+  "id": "a6c572c2-dbc8-4686-a248-68c320d66332",
+  "type": "start",
+  "x": 480,
+  "y": 290,
+  "properties": {
+  }
+  }
+  ],
+  "edges": [
+  {
+  "id": "44d68c87-24d8-420b-8b7b-a7969b67f0ba",
+  "type": "polyline",
+  "sourceNodeId": "a6c572c2-dbc8-4686-a248-68c320d66332",
+  "targetNodeId": "1270c49d-d58e-439b-955c-2603bf94f781",
+  "startPoint": {
+  "x": 500,
+  "y": 290
+  },
+  "endPoint": {
+  "x": 760,
+  "y": 290
+  },
+  "properties": {
+  },
+  "pointsList": [
+  {
+  "x": 500,
+  "y": 290
+  },
+  {
+  "x": 760,
+  "y": 290
+  }
+  ]
+  }
+  ]
+  }

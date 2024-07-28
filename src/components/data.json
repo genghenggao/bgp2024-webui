@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "ec973838-44cc-476e-ac86-79223b7bcd52",
+      "type": "geodiskin",
+      "x": 630,
+      "y": 150,
+      "properties": {
+        "filename": "",
+        "firstkeywordcode": "Source",
+        "firstkeywordrange": 0,
+        "secondkeywordcode": "Trace",
+        "secondkeywordrange": 0,
+        "thirdkeywordcode": "Null",
+        "thirdkeywordrange": 0,
+        "foutrhkeywordcode": "Null",
+        "fourthkeywordrange": 0,
+        "fifthkeywordcode": "Null",
+        "fifthkeywordrange": 0,
+        "gatherflag": "Source",
+        "tracetype": "1 Valid trace",
+        "userange": "No",
+        "timewindowinput": 0,
+        "headerword": "Null",
+        "headerrange": 0,
+        "rangeword": "Null",
+        "randomrange": -9999,
+        "gatherinput": "No",
+        "recreate": "No",
+        "headeronly": "No",
+        "sortsequence": "False",
+        "consistencycheck": "",
+        "Filename": "webjobtest",
+        "FirstKeywordCode": "Null",
+        "FirstKeywordRange": 0,
+        "SecondKeywordCode": "Trace",
+        "SecondKeywordRange": 0,
+        "ThirdKeywordCode": "Null",
+        "ThirdKeywordRange": 0,
+        "FourthKeywordCode": "Null",
+        "FourthKeywordRange": 0,
+        "FifthKeywordCode": "Null",
+        "FifthKeywordRange": 0,
+        "GatherFlag": "Source",
+        "Tracetype": "1 Valid trace",
+        "UseSameRangeForAllFiles": "No",
+        "TimeWindowInput": 0,
+        "SelectHeaderWord": "Null",
+        "SelectHeaderRange": 0,
+        "RandomSelectKeyword": "Null",
+        "RandomSelectRange": -9999,
+        "GatherInput": "No",
+        "GatherInputTraces": "1",
+        "RecreateIndex": "No",
+        "HeaderOnly": "No",
+        "SortSequence": "False",
+        "HeadInconsistencyCheck": "1",
+        "Description": "File Input during GeoEast progress"
+      }
+    },
+    {
+      "id": "e237d8bd-46a3-41d1-ab75-97578c07a420",
+      "type": "cumtbweb",
+      "x": 630,
+      "y": 240,
+      "properties": {
+        "ExecModel": "Python",
+        "PyScriptFile": "/home/geoeast/cumtb/cumtbweb/py/worker.py",
+        "Description": "Custom Python processing module"
+      }
+    },
+    {
+      "id": "682127e8-34f5-43de-882a-28ddecc18389",
+      "type": "geodiskout",
+      "x": 630,
+      "y": 340,
+      "properties": {
+        "OutputFileType": "Auto file",
+        "Filename": "outputtest",
+        "MultFilename": "outputtest",
+        "AutoFilename": "outputtest",
+        "SeismicSet": "1",
+        "OutputHeaderWord": "1",
+        "OutputHeaderRange": "Source",
+        "AutoFilenameRange": "1",
+        "DataForm": "Original",
+        "DomainType": "Original",
+        "DataAttribute": "1 Seismic record",
+        "ReportTable": "No",
+        "RepeatedFilename": "Job abort",
+        "AmplitudeExtremum": "No",
+        "TimeWindowOuput": "1",
+        "CreateOtherIndex": "No",
+        "FirstKeywordCode": "Null",
+        "SecondKeywordCode": "Null",
+        "ThirdKeywordCode": "Null",
+        "FourthKeywordCode": "Null",
+        "FifthKeywordCode": "Null",
+        "DataFormat": "IEEE float point(IEEE)",
+        "StorageType": "Auto",
+        "Description": "Output During GeoEast Data"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "ae54e8b0-1411-4141-a681-e7e4d7c457f5",
+      "type": "polyline",
+      "sourceNodeId": "ec973838-44cc-476e-ac86-79223b7bcd52",
+      "targetNodeId": "e237d8bd-46a3-41d1-ab75-97578c07a420",
+      "startPoint": {
+        "x": 630,
+        "y": 170
+      },
+      "endPoint": {
+        "x": 630,
+        "y": 220
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 630,
+          "y": 170
+        },
+        {
+          "x": 630,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "299a5423-65c3-463c-be8d-4c2c4ea1b808",
+      "type": "polyline",
+      "sourceNodeId": "e237d8bd-46a3-41d1-ab75-97578c07a420",
+      "targetNodeId": "682127e8-34f5-43de-882a-28ddecc18389",
+      "startPoint": {
+        "x": 630,
+        "y": 260
+      },
+      "endPoint": {
+        "x": 630,
+        "y": 320
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 630,
+          "y": 260
+        },
+        {
+          "x": 630,
+          "y": 320
+        }
+      ]
+    }
+  ]
+}
